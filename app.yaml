@@ -7,6 +7,6 @@ handlers:
   script: index.php
   upload: index.php
 
-- url: /(.*)
-  script: \1
-  upload: (.*)
+# - url: /(.*)
+#   script: \1
+#   upload: (.*)
