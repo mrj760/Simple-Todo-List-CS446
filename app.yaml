@@ -10,4 +10,4 @@ handlers:
 
 # Serve php scripts.
 - url: /(.+\.php)$
-  script: \1
+  script: \index.php
