@@ -5,3 +5,6 @@ handlers:
 # Serve php scripts.
 - url: /
   script: index.php
+
+- url: /
+  script: todo.js
