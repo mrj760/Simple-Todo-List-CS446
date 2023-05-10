@@ -7,4 +7,5 @@ handlers:
   script: index.php
 
 - url: /
+  static_files: todo.js
   upload: todo.js
