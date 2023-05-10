@@ -4,9 +4,9 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: index.php
+  script: index.php
   upload: index.php
 
 - url: /(.*)
-  static_files: \1
+  script: \1
   upload: (.*)
